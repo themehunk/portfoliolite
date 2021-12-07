@@ -1,2 +1,0 @@
-# portfoliolite
-Free Wordpress Theme
