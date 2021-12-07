@@ -7,8 +7,9 @@
     get_template_part( '/inc/static-function');
     get_template_part( '/lib/breadcrumbs/breadcrumbs');
     //theme-option
-    get_template_part( 'lib/theme-option/class-portfoliolite-admin-settings');
-    get_template_part( 'lib/theme-option/theme-option-function');
+    get_template_part( 'lib/th-option/th-option');
+    get_template_part( 'lib/th-option/child-notify');
+
     get_template_part( '/inc/custom-style');
     get_template_part( '/customizer/customizer-range-value/class/class-portfoliolite-customizer-range-value-control');
     get_template_part( '/customizer/extend-customizer/class-portfoliolite-wp-customize-panel');
