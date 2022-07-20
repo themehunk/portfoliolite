@@ -448,24 +448,6 @@ $wp_customize->add_setting('portfoliolite_footer_bg_color', array(
         'description' => esc_html__( 'To know more go with this', 'portfoliolite' ),
         'priority'    =>100,
     )));
- 
-$wp_customize->add_section( 'portfoliolite_copy_right_txt', array(
-         'title'          => __( 'Copyright Text', 'portfoliolite' ),
-         'priority'       => 2,
-         'panel'  => 'portfoliolite_footr_panel',
-    ) );
-$wp_customize->add_setting('copyright_textbox', array(
-        'default'           => __('Powered by Themehunk WordPress Theme','portfoliolite'),
-        'capability'        => 'edit_theme_options',
-        'sanitize_callback' => 'portfoliolite_sanitize_text',
-        'transport'         =>  'postMessage'
-    ));
-$wp_customize->add_control('copyright_textbox', array(
-        'label'    => __('Footer Text', 'portfoliolite'),
-        'section'  => 'portfoliolite_copy_right_txt',
-        'settings' => 'copyright_textbox',
-         'type'       => 'text',
-    ));
     
 }
 add_action('customize_register','portfoliolite_customize_register');

@@ -63,9 +63,6 @@
 </div>
 <div class="footer-copyright">
 <div class="copyright-section">
-  <?php if( get_theme_mod('copyright_textbox')!=''){?>						
-<p><?php echo esc_html(get_theme_mod( 'copyright_textbox'));?></p>
-<?php } else { ?>
   <p class="footer-copyright">&copy;
               <?php
               echo date_i18n(
@@ -82,7 +79,6 @@
             </span>
   </p><!-- .footer-copyright -->
 </div>
-<?php } ?>
 	</div>
 <?php wp_footer(); ?>
 </body>
