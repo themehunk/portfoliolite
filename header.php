@@ -63,7 +63,7 @@
       <?php endif;
       $description = get_bloginfo( 'description', 'display' );
       if ( $description || is_customize_preview() ) : ?>
-      <p><?php echo $description; ?></p>
+      <p><?php echo esc_html($description); ?></p>
       <?php endif;  } ?>
 </div>
 <?php if (get_theme_mod('portfoliolite_menu_style','on')=='on') { ?>  

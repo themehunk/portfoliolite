@@ -3,7 +3,7 @@ Contributors: ThemeHunk
 Requires at least: 4.7
 Requires PHP: 5.5
 Tested up to: 6.1
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -19,6 +19,10 @@ Yes our theme supports builder
 Yes, this theme is tested with latest version of WordPress, you can use it for your site.
 
 == Changelog ==
+
+= 1.2.5 =
+* Style modification.
+* Theme tested With WordPress 6.1.
 
 = 1.2.4 =
 * Seo optimization.

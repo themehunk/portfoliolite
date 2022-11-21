@@ -4,7 +4,7 @@ Theme URI: http://www.themehunk.com/product/portfoliolite-multipurpose-showcase-
 Author: ThemeHunk
 Author URI: http://www.themehunk.com
 Description: Portfoliolite theme is not just a portfolio theme but a multipurpose theme using which you can create a website for agency, personal, corporate, shop etc. Theme comes with sliding main section with typewriter, Services section, Portfolio section with Ajax grid, WooCommece section, Team and Contact section. This theme is compatible with nearly all plugins available at WordPress repository. Perfectly compatible with your favourite page builder like Elementor, SiteOrigin, Brizy etc. Specially integrated with Lead form Builder plugin to receive and save your valuable leads. check demo: https://themehunk.com/wp-themes/portfoliolite/
-Version: 1.2.4
+Version: 1.2.5
 Requires at least: 4.7
 Tested up to: 6.1
 Requires PHP: 5.5
@@ -1549,6 +1549,9 @@ button {
          margin-top: 40px;
     border-radius: 4px;
 }
+.wp-block-search__inside-wrapper button{
+  margin-top: 0;
+} 
 button.load-more:hover {
     color: #ff6c54;
     background: transparent;
@@ -3518,7 +3521,8 @@ padding:0;
 .widget .th-aboutme a:hover {
     border-bottom: 1px solid #FF6C54;
 }
-.widget-title {
+.widget-title,
+.sidebar-wrapper .wp-block-group__inner-container h2 {
     background-color: #F2F2F2;
     padding: 10px;
     margin-bottom: 20px;
@@ -3658,7 +3662,8 @@ list-style: none;
 }
 .widget.woocommerce .widget-title,
 .open-widget-content .widget-title,
-.widget-title{
+.widget-title,
+.sidebar-wrapper .wp-block-group__inner-container h2{
   font-size: 16px;
   color:#090909;
 }
@@ -5060,8 +5065,11 @@ ul.portfolio-navi button {
     font-size: 11px;
 }
 .sider .menu-close{
-display:none
-;}
+display:none;
+}
+.wp-block-latest-comments__comment{
+  line-height: inherit;
+}
 @media screen and (max-width: 1024px) {
    .plrx_enable{
         background-attachment: scroll!important;
@@ -5334,6 +5342,7 @@ ul.portfolio-navi li {
     .sidebar-wrapper {
         width: 80%;
         float: none;
+        margin: 0 auto;
         
     }
     .sidebar {

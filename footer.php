@@ -73,7 +73,7 @@
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
             <span class="powered-by-wordpress">
               <span><?php _e( 'Powered by', 'portfoliolite' ); ?></span>
-              <a href="<?php echo esc_url( __( 'https://themehunk.com/', 'portfoliolite' ) ); ?>">
+              <a href="<?php echo esc_url('https://themehunk.com/', 'portfoliolite'); ?>">
                 <?php _e( 'Themehunk WordPress Theme', 'portfoliolite' ); ?>
               </a>
             </span>
