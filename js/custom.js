@@ -3,6 +3,7 @@
         init: function (){
             this.bindEvents();
         },
+
          bindEvents: function (){
             var $this = this;
                 $this.Loader();
@@ -14,6 +15,7 @@
                 $this.smoothScroll();
                 $this.stickyHeader();
                 $this.headerVisibility();
+                $this.belowfooter();
             
          },
 Loader: function(){
@@ -136,6 +138,10 @@ backtoTop: function(){
 })(jQuery);
 }, //backtoTop End
 
+belowfooter:function(){
+            jQuery(".footer-copyright,.copyright-section,.footer-copyright").attr('style', 'display: block !important');
+            jQuery(".copyright-section a,.copyright-section span").attr('style', 'display: inline-block !important');
+        },
 // smooth scroll and active Link
 smoothScroll: function(){
 function validUrlCheck(url){

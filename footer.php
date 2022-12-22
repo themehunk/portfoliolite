@@ -63,9 +63,6 @@
 </div>
 <div class="footer-copyright">
 <div class="copyright-section">
-  <?php if( get_theme_mod('copyright_textbox')!=''){?>						
-<p><?php echo esc_html(get_theme_mod( 'copyright_textbox'));?></p>
-<?php } else { ?>
   <p class="footer-copyright">&copy;
               <?php
               echo date_i18n(
@@ -76,13 +73,12 @@
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
             <span class="powered-by-wordpress">
               <span><?php _e( 'Powered by', 'portfoliolite' ); ?></span>
-              <a href="<?php echo esc_url( __( 'https://themehunk.com/', 'portfoliolite' ) ); ?>">
+              <a href="<?php echo esc_url('https://themehunk.com/', 'portfoliolite'); ?>">
                 <?php _e( 'Themehunk WordPress Theme', 'portfoliolite' ); ?>
               </a>
             </span>
   </p><!-- .footer-copyright -->
 </div>
-<?php } ?>
 	</div>
 <?php wp_footer(); ?>
 </body>

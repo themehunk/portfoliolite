@@ -26,9 +26,9 @@
 
         }
         ?>
-        <button style="<?php echo $Bstyle; ?>"; class="button activate-now <?PHP echo $class; ?>"><?php _e($btn_text,'portfoliolite'); ?></button>
+        <button style="<?php echo esc_attr($Bstyle); ?>"; class="button activate-now <?PHP echo $class; ?>"><?php echo esc_html($btn_text); ?></button>
 
-        <a style="<?php echo $style; ?>";  target="_blank" href="<?php echo get_home_url(); ?>" class="button alink button-primary"><?php _e('View Home Page','portfoliolite'); ?></a>
+        <a style="<?php echo esc_attr($style); ?>";  target="_blank" href="<?php echo get_home_url(); ?>" class="button alink button-primary"><?php _e('View Home Page','portfoliolite'); ?></a>
 		
          </p>
 		 	 
