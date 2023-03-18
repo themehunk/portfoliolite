@@ -63,8 +63,12 @@ function portfoliolite_setup(){
 
         // Enqueue editor styles.
         add_editor_style( 'style-editor.css' );
+
+        add_editor_style( 'editor.css' );
+
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
+        add_theme_support( 'custom-spacing' );
         // Add theme support for selective refresh for widgets.
         add_theme_support( 'customize-selective-refresh-widgets' );
 
@@ -133,6 +137,11 @@ function portfoliolite_setup(){
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'portfoliolite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
+            'unlimited-blocks' => array(
+                'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'portfoliolite' ),
+                 'img' => 'icon-128x128.png',
+                 'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
             ), 
             'woocommerce' => array(
                 'name' => esc_html__( 'Woocommerce', 'portfoliolite' ),
