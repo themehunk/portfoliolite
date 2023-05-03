@@ -4,10 +4,10 @@ Theme URI: http://www.themehunk.com/product/portfoliolite-multipurpose-showcase-
 Author: ThemeHunk
 Author URI: http://www.themehunk.com
 Description: Portfoliolite theme is not just a portfolio theme but a multipurpose theme using which you can create a website for agency, personal, corporate, shop etc. Theme comes with sliding main section with typewriter, Services section, Portfolio section with Ajax grid, WooCommece section, Team and Contact section. This theme is compatible with nearly all plugins available at WordPress repository. Perfectly compatible with your favourite page builder like Elementor, SiteOrigin, Brizy etc. Specially integrated with Lead form Builder plugin to receive and save your valuable leads. check demo: https://themehunk.com/wp-themes/portfoliolite/
-Version: 1.2.6
-Requires at least: 4.7
-Tested up to: 6.1
-Requires PHP: 5.5
+Version: 1.2.7
+Requires at least: 5.5
+Tested up to: 6.2
+Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: wide-blocks, block-patterns, block-styles, editor-style, two-columns, grid-layout, right-sidebar, custom-menu, custom-header, custom-background, threaded-comments, editor-style, portfolio, translation-ready, full-width-template, flexible-header, post-formats, sticky-post, one-column
@@ -3284,8 +3284,8 @@ ul.contact-grid li.contact-list:nth-of-type(3n+3) {
 .arrow-up a:before {
     content: '';
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border: solid transparent;
     border-width: 2px;
     border-top-color: #000;
@@ -5340,7 +5340,7 @@ ul.portfolio-navi li {
         margin: auto 0;
     }
     .sidebar-wrapper {
-        width: 80%;
+        width: 85%;
         float: none;
         margin: 0 auto;
         
@@ -5390,8 +5390,8 @@ ul.portfolio-navi li {
         margin-right: 0;
     }
     figure.team-efct figcaption h3 {
-    font-size: 16px;
-    line-height:22px;
+    font-size: 14px;
+    line-height:21px;
 }
 figure.team-efct figcaption p{
 font-weight:normal;
@@ -5410,7 +5410,7 @@ figure.blog-efct h3 {
     line-height: 21px;
   }
 figure.team-efct figcaption {
-    padding: 10px;
+    padding: 9px;
 }
     #price-package .package:hover {
         margin-top: 0px;
@@ -5532,5 +5532,11 @@ figure.team-efct,figure.blog-efct {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}  
+} 
+[type="submit"] {
+    padding: 7px 30px;
+}
+.menu-toggle .menu-btn{
+    padding: 7px;
+} 
 }
