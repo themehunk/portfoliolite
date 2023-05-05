@@ -1,9 +1,10 @@
 == Portfoliolite ==
 Contributors: ThemeHunk
-Requires at least: 4.7
-Requires PHP: 5.5
-Tested up to: 6.1
-Stable tag: 1.2.5
+Tags: wide-blocks, block-patterns, block-styles, editor-style, two-columns, grid-layout, right-sidebar, custom-menu, custom-header, custom-background, threaded-comments, editor-style, portfolio, translation-ready, full-width-template, flexible-header, post-formats, sticky-post, one-column
+Requires at least: 5.5
+Requires PHP: 5.6
+Tested up to: 6.2
+Stable tag: 1.2.7
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -19,6 +20,15 @@ Yes our theme supports builder
 Yes, this theme is tested with latest version of WordPress, you can use it for your site.
 
 == Changelog ==
+
+= 1.2.7 =
+Update: Style Improved.
+Update: Theme tested with latest WordPress 6.2.
+
+= 1.2.6 =
+* Theme made compatible with Block Editor.
+* Tags Added.
+* Unlimited Block Plugin Integrated.
 
 = 1.2.5 =
 * Style modification.
