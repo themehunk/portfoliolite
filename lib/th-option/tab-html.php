@@ -60,7 +60,7 @@
 
                 <div class="rcp theme_link th-row import-demo">
                     <div class="import-image">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/import.png">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/import.gif">
                     </div>
                 <div class="title-plugin">
                 <h3><?php _e('Click Here To Import Demo Content','portfoliolite'); ?></h3>

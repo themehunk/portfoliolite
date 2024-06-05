@@ -8,7 +8,7 @@
  * @since 1.0.0
  */
 if ( ! function_exists( 'portfoliolite_setup' ) ) :
-define( 'PORTFOLIOLITE_THEME_VERSION','1.0.0');
+define( 'PORTFOLIOLITE_THEME_VERSION','1.2.8');
 define( 'PORTFOLIOLITE_THEME_DIR', get_template_directory() . '/' );
 define( 'PORTFOLIOLITE_THEME_URI', get_template_directory_uri() . '/' );
 define( 'PORTFOLIOLITE_THEME_SETTINGS', 'portfoliolite-settings' );
@@ -110,46 +110,37 @@ function portfoliolite_setup(){
 
       // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
-
-
             'hunk-companion' => array(
                 'name' => esc_html__( 'Hunk Companion (Highly Recommended)', 'portfoliolite' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'hunk-companion/hunk-companion.php',
             ),
-
-            'th-advance-product-search' => array(
-            'name' => esc_html__( 'TH Advance Product Search', 'portfoliolite' ),
-            'img' => 'icon-128x128.gif',
-            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
-            ),
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation Swatches', 'portfoliolite' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            'vayu-blocks' => array(
+                'name' => esc_html__( 'Vayu blocks For Gutenberg', 'portfoliolite' ),
+                 'img' => 'icon-128x128.png',
+                 'active_filename' => 'vayu-blocks/vayu-blocks.php',
             ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'portfoliolite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
+            
+            'th-advance-product-search' => array(
+                'name' => esc_html__( 'TH Advance Product Search', 'portfoliolite' ),
+                'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+                ),
             'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'portfoliolite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
-            ), 
-            'unlimited-blocks' => array(
-                'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'portfoliolite' ),
-                 'img' => 'icon-128x128.png',
-                 'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
-            ), 
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'portfoliolite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
             ),
-
-            
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'portfoliolite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            )
 
         ) );
 
@@ -160,18 +151,7 @@ function portfoliolite_setup(){
                 'name' => esc_html__( 'Hunk Companion (Highly Recommended)', 'portfoliolite' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'hunk-companion/hunk-companion.php',
-            ),
-
-            'one-click-demo-import' => array(
-                'name' => esc_html__( 'One Click Demo Import', 'portfoliolite' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
-            ), 
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'portfoliolite' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ),
+            )
 
         ));
 

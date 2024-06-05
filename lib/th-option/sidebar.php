@@ -6,7 +6,7 @@
             <p>
             <b><?php _e('Pre-made premium templates','portfoliolite'); ?> </b><br>
             <?php _e('PortfolioLine Pro is an amazing multipurpose theme made for Agency, small businesses, firm and corporate websites.','portfoliolite'); ?> </p>
-                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/portfolioline-multipurpose-showcase-theme/"><?php _e('Upgrade','portfoliolite'); ?> </a></center>
+                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/portfolioline-multipurpose-showcase-theme/"><?php _e('Upgrade To Pro','portfoliolite'); ?> </a></center>
             </div>
             <hr>
             <div class="section">
