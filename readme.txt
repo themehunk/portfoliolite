@@ -22,7 +22,9 @@ Yes, this theme is tested with latest version of WordPress, you can use it for y
 == Changelog ==
 
 = 1.3.0 =
-Update: Theme made compatible with WordPress 6.6.
+Update: Theme made compatible with WordPress 7.0.
+Update: Style Improved.
+Update: New plugins added in recommended plugins.
 
 = 1.2.9 =
 Update: Theme made compatible with WordPress 6.6.
