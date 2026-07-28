@@ -8,13 +8,13 @@
 
 
 <div class="theme_link">
-    <h3><?php _e('Share','top-store'); ?></h3>
-    <p> <?php _e('Love using this theme? Spread the word and let the world know you’ve crafted an awesome website for your store! Share your experience and showcase your stunning online presence to inspire others.','top-store');?></p> 
+    <h3><?php _e('Share','portfoliolite'); ?></h3>
+    <p> <?php _e('Love using this theme? Spread the word and let the world know you’ve crafted an awesome website for your store! Share your experience and showcase your stunning online presence to inspire others.','portfoliolite');?></p> 
 
     <a href="https://twitter.com/intent/tweet?url=https://themehunk.com/product/portfoliolite-multipurpose-showcase-theme/&text=Hey, I am using this awesome WordPress Theme and created a beautiful portfolio website for <?php echo esc_url(home_url()); ?> . You can also check out this awesome theme: Portfolioline  By 
 @ThemeHunk %20%23WooCommerce%20%23WordPress" target="_blank" rel="external noreferrer noopener" class="x-gropup is-link">
         <span class="x-image"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/lib/th-option/assets/images/x.png" /></span>
-        <span><?php _e(' Click to Tweet','top-store'); ?></span></a>
+        <span><?php _e(' Click to Tweet','portfoliolite'); ?></span></a>
 </div>
 
 
