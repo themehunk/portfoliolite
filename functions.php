@@ -115,31 +115,52 @@ function portfoliolite_setup(){
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'hunk-companion/hunk-companion.php',
             ),
+            'th-store-one' => array(
+                'name' => esc_html__( 'TH Store One', 'portfoliolite' ),
+                 'img' => 'icon-128x128.png',
+                 'active_filename' => 'th-store-one/th-store-one.php',
+            ),
             'vayu-blocks' => array(
                 'name' => esc_html__( 'Vayu blocks For Gutenberg', 'portfoliolite' ),
                  'img' => 'icon-128x128.png',
                  'active_filename' => 'vayu-blocks/vayu-blocks.php',
             ),
-            'lead-form-builder' => array(
-                'name' => esc_html__( 'Lead Form Builder', 'portfoliolite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'lead-form-builder/lead-form-builder.php',
-            ),
-            
             'th-advance-product-search' => array(
                 'name' => esc_html__( 'TH Advance Product Search', 'portfoliolite' ),
                 'img' => 'icon-128x128.gif',
                 'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
                 ),
-            'wp-popup-builder' => array(
-                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'portfoliolite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
-            ),
+            'th-wishlist' => array(
+               'name' => esc_html__( 'TH Wishlist for WooCommerce', 'portfoliolite' ),
+               'img' => 'icon-128x128.gif',
+               'pro_link' => '',
+               'active_filename' => 'th-wishlist/th-wishlist.php',
+           ),
+            'th-all-in-one-woo-cart' => array(
+                 'name' => esc_html__( 'TH All In One Woo Cart', 'portfoliolite' ),
+                   'img' => 'icon-128x128.gif',
+                 'active_filename' => 'th-all-in-one-woo-cart/th-all-in-one-woo-cart.php',
+             ),
+            'th-product-compare' => array(
+                 'name' => esc_html__( 'Th Product Compare', 'portfoliolite' ),
+                   'img' => 'icon-128x128.gif',
+                 'active_filename' => 'th-product-compare/th-product-compare.php',
+             ),
             'th-variation-swatches' => array(
                 'name' => esc_html__( 'TH Variation Swatches', 'portfoliolite' ),
                  'img' => 'icon-128x128.gif',
                 'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
+            'lead-form-builder' => array(
+                'name' => esc_html__( 'Lead Form Builder', 'portfoliolite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'lead-form-builder/lead-form-builder.php',
+            ),
+            
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'portfoliolite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
             )
 
         ) );
