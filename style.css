@@ -4,9 +4,9 @@ Theme URI: http://www.themehunk.com/product/portfoliolite-multipurpose-showcase-
 Author: ThemeHunk
 Author URI: http://www.themehunk.com
 Description: Portfoliolite theme is not just a portfolio theme but a multipurpose theme using which you can create a website for agency, personal, corporate, shop etc. Theme comes with sliding main section with typewriter, Services section, Portfolio section with Ajax grid, WooCommece section, Team and Contact section. This theme is compatible with nearly all plugins available at WordPress repository. Perfectly compatible with your favourite page builder like Elementor, SiteOrigin, Brizy etc. Specially integrated with Lead form Builder plugin to receive and save your valuable leads. check demo: https://themehunk.com/wp-themes/portfoliolite/
-Version: 1.2.9
+Version: 1.3.0
 Requires at least: 5.5
-Tested up to: 6.6
+Tested up to: 7.0
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -5070,6 +5070,20 @@ display:none;
 .wp-block-latest-comments__comment{
   line-height: inherit;
 }
+.products li .th-theme-actions-wrapper{
+    justify-content: flex-start;
+}
+.wp-theme-portfoliolite .summary .th-wishlist-single,
+.wp-theme-portfoliolite .summary .thunk-compare{
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    padding: 4px 9px;
+    height: 34px;
+    float: left;
+}
+.wp-theme-portfoliolite .summary .thunk-compare{
+    margin-left: 5px;
+}
 @media screen and (max-width: 1024px) {
    .plrx_enable{
         background-attachment: scroll!important;
@@ -5079,7 +5093,7 @@ display:block
 ;}
   #main-menu-wrapper,.logo{
  flex: auto;
- width:auto;
+ width:108px;
   }
 .main-heading{
     font-size: 25px;
@@ -5186,6 +5200,33 @@ figure.team-efct figcaption{
     }
 }
 @media screen and (max-width: 767px) {
+    .wp-theme-portfoliolite .summary .th-wishlist-single,
+.wp-theme-portfoliolite .summary .thunk-compare{
+        width: 45px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+}
+    .wp-theme-portfoliolite .summary .th-wishlist-single .thw-to-add-text,
+    .wp-theme-portfoliolite .summary .th-wishlist-single .thw-to-browse-text,
+.wp-theme-portfoliolite .summary .thunk-compare .text{
+    display: none;
+}
+.wp-theme-portfoliolite .summary .thunk-compare  .th-product-compare-btn.icon_type .icon{
+    margin-right: 0;
+}
+    .logo a, .logo-cent a{
+        font-size: 16px;
+    }
+    .products li .th-theme-actions-wrapper .thw-add-to-wishlist-button, 
+    .products li .th-theme-actions-wrapper .th-product-compare-btn.btn_type, 
+    .products li .th-theme-actions-wrapper .th-product-compare-btn.icon_type{
+        font-size: 9px!important;
+    }
+    .products li .th-theme-actions-wrapper .thw-add-to-wishlist-button svg{
+        width: 12px!important;
+        height: 12px!important;
+    }
      .post-next a:before{
      padding-left:0;
       }
